@@ -1,0 +1,8046 @@
+{
+  "js-fundamentals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-data-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-control-flow": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-conditionals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-func-declarations": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-closures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-higher-order": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-objects": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-object-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-prototypes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-array-methods": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-array-destructuring": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-string-methods": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-regex": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-es6-plus": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-modules": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-symbols-iterators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-async": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-promises": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-event-loop": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-promise-combinators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-dom": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-dom-selection": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-dom-events": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-error-handling": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-try-catch": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-this": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-this-binding": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-collections": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-map-set": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-weakmap-weakset": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-destructuring": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-advanced-destructuring": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-generators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-generator-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-async-iterators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-async-gen": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-proxy-reflect": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-proxy-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-reflect-api": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-currying": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-curry-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-memoization": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-memo-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-design-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-pattern-observer": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-pattern-singleton": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-pattern-factory": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-performance": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-perf-techniques": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-web-workers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-functional": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-pure-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-composition": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-modules-advanced": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-dynamic-import": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-json": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-json-methods": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-structured-clone": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-web-apis": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-localstorage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-fetch-api": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-optional-chaining": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-optional-syntax": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-testing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-unit-testing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-debugging": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-typed-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-arraybuffer": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-weakref": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-weakref-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-intl": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-intl-format": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-security": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-xss-prevention": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "js-secure-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-annotations": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-annotations-explicit": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-annotations-inference": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-primitives": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-primitives-core": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-primitives-special": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-unions-intersections": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-union-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-intersection-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-type-aliases": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-alias-object": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-alias-generic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-interfaces": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-interface-declare": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-interface-merge": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-func-signatures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-func-rest-optional": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-generics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-generics-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-generics-constraints": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-utility-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-utility-partial-required": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-utility-pick-omit": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-mapped-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-mapped-basic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-mapped-modifiers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-conditional-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-cond-basic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-cond-distributive": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-keyof-typeof": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-keyof": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-typeof": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-template-literals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-tpl-basic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-tpl-intrinsic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-narrowing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-narrowing-builtin": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-narrowing-custom": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-discriminated-unions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-discrim-pattern": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-discrim-exhaustive": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-class-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-class-abstract": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-enums": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-enum-numeric-string": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-enum-const": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-modules": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-modules-esm": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-modules-namespace": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-declaration-files": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-dts-writing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-dts-definitely-typed": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-tsconfig": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-tsconfig-strict": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-tsconfig-paths": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-decorators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-decorator-class": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-decorator-tc39": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-infer": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-infer-basic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-infer-advanced": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-satisfies": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-satisfies-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-satisfies-vs-annotation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-const-assertions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-const-as-const": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-const-generic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-tuples": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-tuple-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-tuple-variadic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-overloads": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-overloads-basic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-overloads-generics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-assertions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-assert-as": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-assert-unknown": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-indexed-access": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-indexed-basic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-recursive-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-recursive-basic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-recursive-depth": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-branded-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-brand-pattern": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-brand-validation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-structural-typing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-structural-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ts-excess-property": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-fundamentals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-comprehensions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-decorators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-control-flow": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-conditionals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-match": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-data-structures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-lists-tuples": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-dicts": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-sets": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-comprehensions-adv": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-dict-set-comp": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-nested-comp": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-functions-adv": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-closures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-args-kwargs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-lambda": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-decorators-adv": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-param-decorators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-class-decorators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-generators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-generator-funcs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-gen-expressions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-yield-from": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-oop": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-inheritance": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-dataclasses": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-modules": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-imports": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-packages": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-file-io": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-reading-writing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-json-csv": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-error-handling": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-try-except": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-custom-exceptions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-exception-groups": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-metaclasses": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-meta-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-meta-init-subclass": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-descriptors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-descriptor-protocol": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-properties": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-abcs-mro": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-abc-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-mro": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-functools": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-functools-cache": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-functools-partial": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-singledispatch": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-threading": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-threads": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-thread-pool": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-multiprocessing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-process-pool": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-shared-memory": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-asyncio": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-async-await": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-async-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-async-iterators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-gil": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-gil-explained": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-free-threading": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-typing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-typing-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-protocols": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-typeddict": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-packaging": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-pyproject": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-virtual-envs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-pytest": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-pytest-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-pytest-fixtures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-context-managers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-with-statement": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-class-context-mgr": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-itertools": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-itertools-combinatoric": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-itertools-chaining": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-string-formatting": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-fstrings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-template-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-magic-methods": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-operator-overloading": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-container-protocol": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-regex": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-regex-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-regex-sub": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-collections": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-counter-defaultdict": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-namedtuple-deque": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-slots": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-slots-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-modern-syntax": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-walrus": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "py-type-statements": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-fundamentals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-hello-world": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-variables-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-data-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-primitives": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-wrapper-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-operators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-arithmetic-logical": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-ternary-instanceof": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-control-flow": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-conditionals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-arrays-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-arrays-utility": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-string-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-string-builder": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-class-anatomy": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-static-members": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-inheritance": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-extends": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-abstract-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-polymorphism": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-runtime-poly": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-method-overloading": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-encapsulation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-access-modifiers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-interfaces": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-interface-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-functional-interfaces": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-collections-list": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-arraylist": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-collections-set": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-hashset": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-collections-map": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-hashmap": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-generics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-generics-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-wildcards": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-exceptions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-try-catch": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-custom-exceptions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-streams-lambdas": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-lambda-syntax": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-stream-pipeline": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-optionals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-optional-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-records": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-record-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-sealed-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-sealed-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-pattern-matching": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-pattern-switch": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-concurrency": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-threads": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-executors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-completable-future": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-cf-chaining": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-io": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-file-io": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-serialization": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-nio": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-nio-paths": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-reflection": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-reflection-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-annotations": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-annotation-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-modules": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-module-system": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-jvm": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-memory-model": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-classloading": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-enums": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-enum-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-virtual-threads": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-vthreads-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-collections-queue": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-queue-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-functional": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-fp-composition": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "java-collectors-advanced": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-value-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-reference-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-operators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-arithmetic-logical": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-control-flow": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-conditionals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-arrays-collections": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-generic-collections": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-string-operations": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-class-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-properties": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-structs-records": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-structs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-records": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-inheritance": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-class-inheritance": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-casting-type-check": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-interfaces": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-interface-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-abstract": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-abstract-definition": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-generics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-generic-classes-methods": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-linq": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-linq-methods": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-linq-query": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-async": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-async-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-async-streams": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-delegates-events": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-delegates": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-events": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-lambdas": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-lambda-syntax": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-enums": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-enum-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-exceptions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-try-catch": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-pattern-matching": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-patterns-switch": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-nullable": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-nullable-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-tuples": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-tuple-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-indexes-ranges": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-index-range-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-extension-methods": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-extensions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-spans": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-span-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-reflection": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-attributes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-reflection-api": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-disposable": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-using-pattern": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-immutable-collections": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-immutable-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-file-io": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-file-operations": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-dependency-injection": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-di-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-init-only": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-init-required": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-modern-syntax": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cs-primary-constructors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-var-declare": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-zero-values": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-constants": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-const-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-iota": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-numeric-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-strings-runes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-operators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-arithmetic-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-logical-bitwise": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-control-flow": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-if-else": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-for-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-switch": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-switch-basic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-switch-type": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-func-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-named-returns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-multiple-returns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-multi-return-basic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-variadic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-variadic-basic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-closures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-closure-basic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-anon-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-array-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-slices": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-slice-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-slice-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-maps": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-map-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-structs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-struct-define": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-struct-tags": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-methods": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-method-receivers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-interfaces": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-interface-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-empty-interface": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-embedding": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-struct-embedding": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-interface-embedding": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-pointers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-pointer-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-pointer-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-goroutines": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-goroutine-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-channels": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-channel-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-channel-direction": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-select": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-select-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-select-default": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-sync": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-waitgroup": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-mutex": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-context": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-context-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-context-cancel": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-errors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-error-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-custom-errors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-panic-recover": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-panic-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-recover-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-generics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-generic-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-generic-constraints": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-reflection": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-reflect-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-modules": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-module-init": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-package-structure": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-testing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-test-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-table-tests": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-io": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-reader-writer": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-file-io": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-http": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-http-server": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-http-client": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-json": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-json-marshal": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-json-streaming": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-defer": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-defer-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-concurrency-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-worker-pool": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-fan-out-in": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-type-conversions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-type-convert": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-benchmarks": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-benchmark-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-embed": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "go-embed-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-syntax": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-constants": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-variables-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-operators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-operators-arithmetic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-operators-null": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-strings-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-strings-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-arrays-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-arrays-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-control-flow": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-conditionals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-functions-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-functions-refs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-oop": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-oop-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-oop-interfaces": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-oop-traits": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-oop-enums": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-namespaces": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-namespaces-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-autoloading": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-errors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-exceptions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-closures-generators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-closures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-generators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-dates-files-json": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-dates": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-files": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-json": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-web": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-superglobals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-sessions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-security": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-database": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-pdo-connect": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-pdo-queries": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-regex": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-regex-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-modern": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-modern-readonly": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-modern-attributes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "php-modern-fibers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-hello-world": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-expressions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-variables-section": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-variable-scopes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-nil-truthiness": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-strings-section": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-symbols": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-numbers-section": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-integers-floats": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-number-methods": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-collections-section": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-hashes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-ranges": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-ranges-cases": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-control-flow-section": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-conditionals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-methods-section": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-method-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-arguments": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-blocks-section": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-blocks": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-procs-lambdas": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-closures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-enumerable-section": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-core-iterators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-enumerable-extras": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-oop": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-modules-mixins": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-duck-typing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-metaprogramming-section": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-attr-accessor": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-dynamic-methods": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-exceptions-section": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-exceptions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-advanced-section": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-pattern-matching": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-regex": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-file-io": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-ecosystem-section": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-gems": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ruby-bundler": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-basics-val-var": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-basics-repl": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-basics-blocks": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-functions-methods": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-functions-values": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-functions-varargs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-control": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-control-if": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-control-match": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-control-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-collections": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-collections-seq": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-collections-setmap": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-collections-immutable": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-hof": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-hof-map-filter": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-hof-fold": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-for-yield": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-for-monadic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-pattern-matching": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-pm-caseclass": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-pm-deconstruct": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-options": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-options-intro": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-options-handling": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-either": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-try": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-oop": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-oop-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-oop-companion": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-traits": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-traits-mixins": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-traits-sealed": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-tuples-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-tuples": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-string-interpolation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-implicits-givens": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-givens": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-extension": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-advanced-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-generics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-hkt": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-concurrency": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-futures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-futures-compose": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-functional-idioms": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-fp-purity": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "scala-fp-composition": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-getting-started": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-hello-world": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-ghci": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-expressions-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-basic-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-type-signatures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-immutability": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-function-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-currying": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-lambdas": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-pattern-matching": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-pattern-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-list-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-as-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-guards-bindings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-guards": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-where": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-let": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-lists": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-list-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-ranges": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-comprehensions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-comprehension-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-comprehension-multi": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-higher-order": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-map-filter": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-folds": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-zip-apply": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-recursion": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-recursion-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-accumulator-recursion": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-tuples": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-tuple-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-tuple-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-adts": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-adt-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-recursive-adts": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-type-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-common-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-deriving": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-custom-instances": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-maybe-either": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-maybe": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-either": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-laziness": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-laziness-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-laziness-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-composition": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-function-composition": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-point-free": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-fam": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-functor": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-applicative": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-monad": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-io": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-io-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-do-notation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-records": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-record-syntax": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-record-update": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-type-definitions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-type-alias": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-newtype": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-data-vs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-polymorphism": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-generic-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-constrained-polymorphism": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-maybe-chaining": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-list-utilities": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "hs-folding-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-fundamentals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-hello-world": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-compilation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-primitive-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-type-inference": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-operators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-arithmetic-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-logical-bitwise": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-control-flow": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-conditionals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-function-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-inline-constexpr-fn": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-pointers-refs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-pointers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-references": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-c-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-multidim-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-c-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-std-string": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-oop-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-class-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-constructors-destructors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-oop-inheritance": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-inheritance-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-virtual-dispatch": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-oop-polymorphism": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-abstract-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-operator-overloading": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-templates": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-function-templates": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-class-templates": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-stl-vector": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-vector-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-vector-advanced": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-stl-map-set": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-map-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-set-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-stl-list-queue-stack": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-list-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-queue-stack": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-iterators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-iterator-categories": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-iterator-adaptors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-algorithms": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-sorting-searching": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-transform-accumulate": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-smart-pointers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-unique-ptr": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-shared-ptr": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-move-semantics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-move-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-move-constructors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-perfect-forwarding": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-forwarding-refs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-emplace-pattern": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-raii": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-raii-pattern": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-lock-guard": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-exceptions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-exception-handling": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-custom-exceptions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-namespaces": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-namespace-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-anonymous-inline-ns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-constexpr": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-constexpr-vars": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-consteval-constinit": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-lambdas": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-lambda-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-lambda-advanced": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-ranges": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-ranges-views": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-ranges-algorithms": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-concepts": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-concepts-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-concepts-advanced": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-coroutines": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-coroutine-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-async-coroutines": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-modules": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-module-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-module-partitions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-memory": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-stack-heap": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-allocators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-concurrency": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-threads": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-mutex-sync": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-atomics-async": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-atomics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-async-future": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-modern-utilities": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-structured-bindings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-optional-variant": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-type-traits": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-type-traits-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-sfinae": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-file-io": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-streams-io": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cpp-filesystem": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-getting-started": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-hello-world": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-compilation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-types-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-data-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-variables-constants": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-operators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-arithmetic-operators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-logical-relational": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-control-flow": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-conditionals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-function-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-recursion": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-arrays-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-pointers-section": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-pointer-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-pointer-arithmetic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-pointers-to-pointers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-function-pointers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-dynamic-memory": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-allocation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-freeing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-aggregates": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-structs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-unions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-enums": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-typedef": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-typedef-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-file-io": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-text-files": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-binary-files": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-preprocessor": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-macros": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-conditional-compilation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-bit-manipulation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-bitwise-operators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-stdlib-cli": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-stdlib-highlights": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-command-line-args": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "c-undefined-behavior": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-let-bindings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-shadowing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-data-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-scalar-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-compound-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-fn-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-expressions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-ownership": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-ownership-rules": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-ownership-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-borrowing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-immutable-refs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-mutable-refs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-lifetimes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-lifetime-annotations": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-lifetime-structs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-structs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-struct-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-struct-methods": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-enums": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-enum-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-enum-option": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-pattern-matching": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-match-expr": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-if-let-while-let": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-error-handling": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-result-type": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-custom-errors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-traits": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-trait-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-trait-objects": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-generics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-generic-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-trait-bounds": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-bounds-syntax": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-associated-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-collections": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-vec": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-hashmap": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-iterators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-closures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-iterator-adaptors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-string-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-string-methods": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-smart-pointers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-box": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-refcell-arc": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-concurrency": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-threads": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-mutex": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-async": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-async-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-async-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-macros": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-declarative-macros": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-derive-macros": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-modules": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-mod-system": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-cargo-deps": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-testing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-unit-tests": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-unsafe": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-unsafe-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-ffi": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-type-system": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-newtype-alias": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-phantom-data": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-error-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-anyhow-thiserror": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-traits-advanced": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-common-traits": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-operator-overload": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-control-flow": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-slices": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-slice-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-project-structure": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-workspace": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-concurrency-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-send-sync": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-rayon": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-enums-advanced": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-result-combinators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-memory": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "rust-stack-heap": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-registers-section": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-general-registers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-special-registers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-data-movement": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-mov": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-data-definitions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-arithmetic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-add-sub": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-mul-div": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-logical": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-bitwise": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-addressing-section": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-memory-operands": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-flags": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-cmp-test": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-control-section": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-jumps": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-jump-tables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-stack": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-push-pop": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-procedures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-call-ret": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-calling-conventions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-string-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-floating-point": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-sse-scalar": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-sse-packed": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-syscalls": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-linux-syscalls": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-macros": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-assembler-directives": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "asm-macros-topic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-val-var": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-type-inference": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-basic-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-numbers-booleans": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-strings-chars": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-null-safety": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-nullable-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-smart-casts": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-control-flow": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-when-expression": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-if-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-function-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-varargs-infix": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-extension-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-ext-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-ext-properties": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-lambdas": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-lambda-syntax": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-higher-order": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-class-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-inheritance": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-data-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-data-class-features": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-sealed-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-sealed-hierarchy": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-enums": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-objects": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-object-declarations": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-companion-objects": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-collections": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-list-set-map": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-functional-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-sequences": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-sequence-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-scope-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-let-run": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-apply-also-with": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-coroutines-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-suspend-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-launch-async": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-flows": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-flow-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-flow-operators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-channels": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-channel-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-delegation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-class-delegation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-delegated-properties": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-generics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-generic-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-variance": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-inline-reified": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-inline-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-reified-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-dsls": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-dsl-building": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-dsl-annotations": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-operator-overloading": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-operators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-exceptions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-try-catch": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-destructuring": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-destructure-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-type-aliases": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-typealias": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-type-checks": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-annotations": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-annotation-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-reflection": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-coroutine-context": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-dispatchers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-structured-concurrency": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-value-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-value-class-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-contracts": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-contracts-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-context-receivers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-multiplatform": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-java-interop": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "kt-multiplatform-expect": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-let-var": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-type-annotations": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-basic-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-numeric-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-bool-tuple": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-optionals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-optional-binding": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-optional-chaining": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-control-flow": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-conditionals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-func-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-inout": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-closures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-closure-syntax": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-capturing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-structs-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-structs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-enums": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-enum-raw": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-enum-associated": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-protocols": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-protocol-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-protocol-extensions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-extensions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-extension-methods": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-conditional-conformance": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-generics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-generic-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-generic-constraints": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-error-handling": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-throwing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-result-type": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-property-wrappers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-property-wrapper-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-property-wrapper-projected": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-subscripts": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-subscript-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-subscript-static": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-access-control": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-access-levels": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-array-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-array-higher-order": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-dictionaries": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-dict-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-dict-merge": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-sets": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-set-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-string-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-string-indices": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-pattern-matching": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-switch-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-if-case": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-async-await": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-async-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-async-sequences": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-actors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-actor-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-global-actor": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-concurrency": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-task-groups": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-task-cancellation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-opaque-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-some-any": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-memory": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-arc-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-codable": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-codable-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-associated-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-assoc-type-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-assoc-type-constraints": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-keypaths": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-keypath-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-result-builders": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-result-builder-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-sendable": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "swift-sendable-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-getting-started": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-hello-world": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-comments-print": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-declaring-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-null-safety": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-built-in-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-collections": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-lists": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-maps-sets": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-control-flow": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-conditionals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-function-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-closures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-class-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-constructors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-inheritance": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-extends-override": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-mixins": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-abstraction": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-abstract-interfaces": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-generics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-async": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-futures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-streams": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-error-handling": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-try-catch": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-enums-extensions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-enums": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-extensions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-records-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-records": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "dart-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-getting-started": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-hello-world": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-messaging": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-classes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-interface-implementation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-instance-class-methods": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-properties": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-property-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-dot-syntax": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-initializers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-custom-init": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-inheritance": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-subclassing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-categories": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-categories-topic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-class-extensions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-protocols": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-protocol-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-delegation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-memory": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-arc": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-blocks": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-blocks-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-gcd": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-collections": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-dictionaries": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-nsnumber": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-strings-enumeration": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-nsstring": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-fast-enumeration": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-dates": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-kvc-kvo": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-kvc": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-kvo": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-notifications": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-notification-center": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-error-handling": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-nserror": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-exceptions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-copying": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "objc-copy-mutablecopy": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-basics-boilerplate": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-basics-comments": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-variables-sigils": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-variables-access": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-scalars": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-scalars-numbers-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-scalars-truth": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-arrays-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-arrays-mutation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-arrays-slices": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-hashes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-hashes-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-hashes-inspect": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-context": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-context-scalar-list": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-strings-core": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-strings-chomp": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-regex": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-regex-match": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-regex-substitute": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-control-flow": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-control-conditionals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-control-ternary": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-loops-foreach": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-loops-control": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-subroutines": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-subs-args": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-subs-return": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-references": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-refs-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-refs-code": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-data-structures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-data-nested": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-data-inspect": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-file-io": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-file-read": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-file-write": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-special-vars": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-special-underscore": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-special-argv-env": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-list-tools": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-list-sort": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-list-map-grep": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-modules": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-modules-use": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-modules-cpan": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-oop": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-oop-class": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-oop-inheritance": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-error-handling": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-error-eval-die": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-error-try-tiny": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-formatting": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-format-printf": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-format-heredoc": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-one-liners": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "perl-oneliners-command": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-scripts-execution": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-shebang": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-running": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-debugging": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-variables-expansion": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-command-substitution": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-parameter-expansion": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-arithmetic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-indexed-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-associative-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-conditionals-tests": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-test-conditions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-string-comparison": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-case": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-for-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-while-until": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-functions-arguments": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-positional-parameters": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-exit-codes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-redirection-pipes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-redirection": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-pipes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-heredocs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-globbing-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-globbing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-regex": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-command-composition": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-chaining": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-subshells-grouping": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-process-substitution": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-input-environment": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-read": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-environment-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-signals-options": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-trap": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-getopts": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-standard-tools": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-grep-sed": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-awk": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-find-xargs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-best-practices": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-strict-mode": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-quoting-safety": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "bash-shellcheck": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-assignment": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-comments-help": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-packages": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-vectors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-vectors-create": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-vectors-names": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-vec-arithmetic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-vec-logical": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-data-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-types-atomic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-types-check": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-factors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-structures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-lists-create": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-matrices": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-dataframes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-indexing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-index-vector": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-index-df": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-control-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-cf-conditionals": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-cf-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-fn-define": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-apply": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-apply-lapply-sapply": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-apply-apply-mapply": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-pipe": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-pipe-native": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-pipe-magrittr": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-tidyverse": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-dplyr-verbs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-dplyr-aggregate": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-tidyr-reshape": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-io-missing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-read-csv": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-na-detect": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-na-handle": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-strings-dates": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-strings-base": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-strings-stringr": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-dates": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-stats-plots": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-stats-summary": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-stats-models": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-plot-base": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "r-plot-ggplot": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-command-window": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-comments-formatting": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-variables-assign": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-workspace": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-matrices": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-creating-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-array-size": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-concatenation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-operations": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-matrix-arithmetic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-dot-operators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-indexing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-basic-indexing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-slicing-assign": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-colon": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-control-flow": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-if-else": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-vectorization": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-scripts": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-function-def": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-anonymous": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-containers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-cell-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-structs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-char-vs-string": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-string-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-logical": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-logical-masks": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-plotting": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-plot-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-hold-legend": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-3d-plotting": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-io-linalg": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-tabular-io": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-solving-systems": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-eigen": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-toolkit": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-polynomials": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-builtins": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "matlab-best-practices": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-select-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-select-columns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-filtering": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-where-predicates": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-null-handling": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-sorting-limiting": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-order-by": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-aggregation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-aggregate-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-group-having": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-joins": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-inner-outer-joins": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-self-cross-joins": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-subqueries": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-subquery-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-set-operations": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-union-intersect-except": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-ddl": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-create-alter-drop": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-dml": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-insert-update-delete": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-constraints": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-key-constraints": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-indexes-views": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-indexes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-views": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-window-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-window-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-ctes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-cte-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-transactions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-acid": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-string-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-case-expression": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-normalization": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-normal-forms": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sql-relationships": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-data-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-numeric-string-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-date-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-auto-increment": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-auto-increment-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-storage-engines": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-innodb-myisam": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-string-date-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-json": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-json-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-indexes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-index-tuning": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-fulltext": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-fulltext-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-stored-procedures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-procedures-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-triggers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-triggers-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-views": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-views-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-transactions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-transactions-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-user-management": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-grants": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-limit-upsert": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-limit": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-on-duplicate": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-generated-columns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mysql-generated-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-data-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-core-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-serial-identity": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-auto-keys": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-jsonb": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-jsonb-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-arrays": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-arrays-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-ctes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-cte-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-window-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-window-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-plpgsql": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-plpgsql-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-triggers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-triggers-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-indexes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-index-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-fulltext": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-fulltext-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-returning-upsert": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-returning": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-on-conflict": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-schemas-extensions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-schemas": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-extensions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-transactions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-transactions-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-lateral-joins": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-lateral-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-generated-columns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "pg-generated-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-type-affinity": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-affinity-rules": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-create-table": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-schema": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-primary-key-rowid": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-rowid": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-without-rowid": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-constraints": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-constraints-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-dml": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-dml-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-select-joins": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-select-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-indexes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-indexes-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-views": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-views-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-transactions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-transactions-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-functions-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-json1": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-json-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-upsert": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-upsert-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-fts5": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-fts5-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-attach": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-attach-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-pragmas": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-pragmas-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-use-cases": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sqlite-embedded": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-declare-set": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-control-flow": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-if-while": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-stored-procedures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-procs-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-udf-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-ctes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-cte-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-merge": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-merge-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-error-handling": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-try-catch": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-temp-tables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-temp-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-window-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-window-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-string-date-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-fns-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-transactions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-transactions-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-triggers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-triggers-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-dynamic-sql": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-dynamic-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-pivot": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-pivot-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-top-identity": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-top": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "tsql-identity": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-block-structure": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-anonymous-blocks": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-declaring-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-anchored-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-anchored-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-control-structures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-conditions-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-cursors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-explicit-cursors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-cursor-for-loops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-procedures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-procedures-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-functions-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-packages": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-packages-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-triggers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-triggers-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-exceptions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-exceptions-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-sequences": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-sequences-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-bulk-operations": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-bulk-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-collections": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-records": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-dynamic-sql": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-dynamic-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-ref-cursors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "plsql-ref-cursor-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-vs-mysql": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-differences": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-data-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-types-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-storage-engines": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-engines-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-sequences": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-sequences-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-temporal": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-temporal-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-generated-columns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-generated-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-json": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-json-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-ctes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-ctes-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-window-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-window-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-stored-procedures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-procs-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-triggers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-triggers-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-returning": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-returning-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-dynamic-columns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-dynamic-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-invisible-columns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-invisible-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-transactions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "maria-transactions-usage": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-crud": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-insert": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-read": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-write": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-find-and-modify": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-bulk-write": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-query-operators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-comparison": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-logical": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-regex": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-projection": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-field-projection": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-sort-limit": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-cursor-modifiers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-update-operators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-field-updates": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-array-updates": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-aggregation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-pipeline-stages": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-lookup": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-facet-bucket": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-indexes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-index-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-text-search": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-text-index": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-array-queries": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-array-matching": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-embedded": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-nested-access": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-schema-design": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-modeling-patterns": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-transactions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-multi-doc-tx": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-geospatial": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-geo-near": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-change-streams": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-change-stream-topic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-collection-management": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "mongo-capped-collections": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-strings": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-string-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-expiration": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-ttl-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-hashes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-hash-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-lists": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-list-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-sets": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-set-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-sorted-sets": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-zset-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-pubsub": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-pubsub-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-transactions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-multi-exec": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-scripting": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-eval": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-streams": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-stream-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-bitmaps-hll": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-probabilistic": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-keys": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-key-mgmt": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-persistence": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-rdb-aof": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-caching": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-cache-aside": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-geo": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-geo-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-rate-limiting": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-rate-limit-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-locks": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "redis-lock-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-keyspaces": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-keyspace-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-tables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-table-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-primary-key": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-partition-clustering": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-insert": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-insert-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-select": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-select-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-update-delete": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-mutate-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-collections": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-collection-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-indexes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-index-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-materialized-views": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-mv-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-ttl": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-ttl-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-batch": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-batch-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-consistency": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-consistency-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-counters": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-counter-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-udt": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-udt-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-data-modeling": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-query-first": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-time-series": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-operations": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cql-repair-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-nodes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-node-syntax": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-relationships": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-rel-syntax": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-create": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-create-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-match": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-match-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-where": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-where-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-return": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-return-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-merge": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-merge-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-set-delete": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-mutate-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-aggregation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-agg-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-paths": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-var-length": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-shortest-path": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-with": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-with-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-order-limit": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-order-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-constraints": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-index-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-list-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-list-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-procedures": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-call-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "cypher-temporal-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-match": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-match-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-term": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-term-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-bool": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-bool-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-range": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-range-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-multi-match": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-multi-match-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-mapping": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-mapping-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-analyzers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-analyzer-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-aggregations": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-bucket-metric": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-pipeline-aggs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-sorting": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-sort-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-pagination": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-pagination-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-highlighting": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-highlight-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-nested": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-nested-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-index-management": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-index-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "es-ilm-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-primary-keys": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-key-schema": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-put-get": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-item-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-query": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-key-condition": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-scan": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-scan-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-filter-expressions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-filter-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-projection-expressions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-projection-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-indexes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-gsi-lsi": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-partiql": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-partiql-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-single-table": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-single-table-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-batch": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-batch-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-conditional-writes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-conditional-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-update-expressions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-update-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-ttl": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-ttl-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-pagination": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-pagination-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-streams": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "ddb-streams-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-queries": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-query-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-arguments": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-argument-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-mutations": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-mutation-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-subscriptions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-subscription-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-schema": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-object-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-scalars": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-scalar-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-input-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-input-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-enums": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-enum-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-interfaces": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-interface-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-unions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-union-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-fragments": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-fragment-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-variables": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-variable-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-directives": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-directive-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-resolvers": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-resolver-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-aliases": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-alias-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-pagination": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-pagination-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-errors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-error-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-introspection": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "gql-introspection-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-triples": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-triple-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-prefixes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-prefix-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-select": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-select-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-where": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-where-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-filter": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-filter-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-optional": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-optional-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-union": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-union-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-order-limit": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-order-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-aggregation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-agg-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-construct": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-construct-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-ask-describe": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-ask-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-property-paths": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-path-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-subqueries": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-subquery-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-bind-values": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-bind-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-federated": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-service-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-named-graphs": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-graph-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-update": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "sparql-update-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-line-protocol": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-lp-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-data-model": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-model-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-flux-basics": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-flux-from": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-flux-keep-drop": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-influxql": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-influxql-select": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-aggregations": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-agg-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-windowing": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-window-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-group": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-group-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-retention": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-retention-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-tasks": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-task-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-math": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-math-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-joins": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-join-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-pivot": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-pivot-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-downsampling": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-downsample-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-transformations": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-transform-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-alerts": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "influx-alert-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-vectors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-vector-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-selectors": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-selector-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-rate": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-rate-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-resets-changes": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-aggregation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-agg-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-functions": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-function-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-predict-deriv": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-binary-operators": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-binary-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-offset": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-offset-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-subqueries": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-subquery-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-recording-rules": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-recording-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-alerting": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-alerting-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-label-manipulation": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-label-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-counters-gauges": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-metric-types": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-topk": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  },
+  "promql-topk-ops": {
+    "fetchedAt": 1788224797960,
+    "videos": []
+  }
+}

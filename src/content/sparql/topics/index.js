@@ -1,0 +1,891 @@
+// SPARQL topic tree.
+
+/** @type {import('@/lib/content').ConceptNode[]} */
+const topics = [
+  {
+    id: 'sparql-triples',
+    title: 'RDF Triples',
+    level: 1,
+    slug: 'triples',
+    concepts: [],
+    children: [
+      {
+        id: 'sparql-triple-ops',
+        title: 'Subject-Predicate-Object',
+        level: 2,
+        slug: 'triple-ops',
+        concepts: [
+          {
+            id: 'sparql-triple-basic',
+            code: "# A triple: subject predicate object\n<http://example.org/alice> foaf:name \"Alice\" .\n<http://example.org/alice> foaf:knows <http://example.org/bob> .",
+            note: 'RDF models data as triples of subject, predicate, and object. Sets of triples form a graph. SPARQL queries describe patterns of triples to match against that graph.',
+            explanation: {
+              heading: 'The Triple Data Model',
+              intro: 'RDF represents all information as simple three-part statements. Understanding this atom of data is the foundation for everything you write in SPARQL.',
+              points: [
+                { term: 'Subject', detail: 'The resource the statement is about, always identified by an IRI or a blank node.' },
+                { term: 'Predicate', detail: 'The property or relationship being described, always an IRI drawn from some vocabulary.' },
+                { term: 'Object', detail: 'The value of the property, which can be another resource IRI or a literal such as text or a number.' },
+                { term: 'Graph', detail: 'A collection of many triples that together form a connected web of facts you can query.' },
+                { term: 'Pattern matching', detail: 'A SPARQL query describes triple patterns, and the engine finds every set of triples in the graph that fits them.' },
+              ],
+            },
+            example: "# Each statement ends with a period",
+          },
+          {
+            id: 'sparql-literals-iris',
+            code: "<...alice> ex:age \"30\"^^xsd:integer .\n<...alice> rdfs:label \"Alice\"@en .\n<...alice> ex:homepage <http://alice.example> .",
+            note: 'Objects are either IRIs (resources in angle brackets or prefixed) or literals. A literal may carry a datatype with ^^ or a language tag with @. Subjects and predicates are always IRIs.',
+            explanation: {
+              heading: 'IRIs Versus Literals',
+              intro: 'RDF terms come in two broad kinds, and knowing which is which tells you how to match and compare values in a query.',
+              points: [
+                { term: 'IRI', detail: 'A globally unique identifier for a resource, written in angle brackets or as a prefixed name like foaf:name.' },
+                { term: 'Plain literal', detail: 'A raw text value such as the string Alice with no extra type information attached.' },
+                { term: 'Typed literal', detail: 'A value tagged with a datatype using the double-caret operator, for example a number typed as xsd:integer.' },
+                { term: 'Language-tagged literal', detail: 'A string annotated with a language code using the at sign, such as the English label Alice.' },
+                { term: 'Position rules', detail: 'Subjects and predicates must be IRIs or blank nodes, while only the object position may hold a literal value.' },
+              ],
+            },
+            example: "# \"Alice\"@en is a language-tagged string literal",
+          },
+        ],
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 'sparql-prefixes',
+    title: 'Prefixes',
+    level: 1,
+    slug: 'prefixes',
+    concepts: [],
+    children: [
+      {
+        id: 'sparql-prefix-ops',
+        title: 'Namespace Declarations',
+        level: 2,
+        slug: 'prefix-ops',
+        concepts: [
+          {
+            id: 'sparql-prefix-basic',
+            code: "PREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX dbo:  <http://dbpedia.org/ontology/>\nPREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>",
+            note: 'PREFIX declares shorthand for long IRIs so you can write foaf:name instead of the full URL. rdf:type has the shortcut keyword a. Prefixes go at the top of the query.',
+            explanation: {
+              heading: 'Declaring Prefixes',
+              intro: 'IRIs are long and repetitive, so SPARQL lets you bind a short label to a namespace and use compact names throughout the query.',
+              points: [
+                { term: 'PREFIX keyword', detail: 'Maps a short label to a full namespace IRI so foaf:name expands to the complete address.' },
+                { term: 'Prefixed name', detail: 'The compact form label colon local-part that the engine rewrites into the full IRI before matching.' },
+                { term: 'The a shortcut', detail: 'The single letter a is a built-in abbreviation for rdf:type, describing what class a resource belongs to.' },
+                { term: 'Placement', detail: 'Prefix declarations go at the very top of the query, before SELECT or any other clause.' },
+                { term: 'Readability', detail: 'Prefixes keep queries concise and make the vocabularies in use obvious at a glance.' },
+              ],
+            },
+            example: "?person a dbo:Scientist . # 'a' means rdf:type",
+          },
+          {
+            id: 'sparql-base-declaration',
+            code: "BASE <http://example.org/>\nPREFIX ex: <http://example.org/>\n\nSELECT ?s WHERE { ?s a <Person> . }  # <Person> resolves against BASE",
+            note: 'BASE sets a root IRI so relative references like <Person> resolve against it, keeping queries compact. Common vocabularies (rdf, rdfs, owl, xsd, foaf) are conventionally given short standard prefixes.',
+            explanation: {
+              heading: 'BASE and Standard Prefixes',
+              intro: 'Beyond named prefixes, SPARQL offers a base IRI for relative references and leans on a set of well-known vocabularies everyone recognises.',
+              points: [
+                { term: 'BASE declaration', detail: 'Sets a root IRI against which any relative reference in angle brackets is resolved.' },
+                { term: 'Relative IRIs', detail: 'A short reference like the term Person is completed by prepending the base, avoiding repeated full addresses.' },
+                { term: 'Standard vocabularies', detail: 'Prefixes such as rdf, rdfs, owl, xsd, and foaf are conventionally bound to fixed, widely-shared namespaces.' },
+                { term: 'Consistency', detail: 'Using the conventional prefixes makes queries portable and instantly familiar to other authors.' },
+                { term: 'Compactness', detail: 'BASE and prefixes together let long queries stay readable without sprinkling full URLs everywhere.' },
+              ],
+            },
+            example: "# BASE lets you use short relative IRIs in the query",
+          },
+        ],
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 'sparql-select',
+    title: 'SELECT',
+    level: 1,
+    slug: 'select',
+    concepts: [],
+    children: [
+      {
+        id: 'sparql-select-ops',
+        title: 'Selecting Variables',
+        level: 2,
+        slug: 'select-ops',
+        concepts: [
+          {
+            id: 'sparql-select-basic',
+            code: "SELECT ?name ?birth\nWHERE {\n  ?person a dbo:Scientist ;\n          foaf:name ?name ;\n          dbo:birthDate ?birth .\n}\nLIMIT 10",
+            note: 'SELECT returns a table of variable bindings. Variables start with ? and bind to values that satisfy the WHERE patterns. A semicolon reuses the previous subject.',
+            explanation: {
+              heading: 'Selecting Variables',
+              intro: 'The SELECT query form is the workhorse of SPARQL, returning matched data as a table much like a SQL SELECT.',
+              points: [
+                { term: 'Variables', detail: 'Names prefixed with a question mark act as placeholders that bind to values matching the pattern.' },
+                { term: 'Projection', detail: 'The list of variables after SELECT decides which columns appear in the result table.' },
+                { term: 'Binding', detail: 'Each result row is one consistent assignment of values to the query variables.' },
+                { term: 'DISTINCT', detail: 'Adding DISTINCT collapses identical rows so each unique combination appears only once.' },
+                { term: 'Semicolon shorthand', detail: 'A semicolon between predicates reuses the previous subject, keeping related triples together.' },
+              ],
+            },
+            example: "SELECT DISTINCT ?name # remove duplicate rows",
+          },
+          {
+            id: 'sparql-select-expressions',
+            code: "SELECT ?name (?pop / 1000000 AS ?millions) (STRLEN(?name) AS ?len)\nWHERE {\n  ?c foaf:name ?name ; dbo:populationTotal ?pop .\n}",
+            note: 'SELECT can project computed expressions bound with AS, not just raw variables. This lets you rename, calculate, and format values in the result set without a separate BIND clause.',
+            explanation: {
+              heading: 'Projecting Expressions',
+              intro: 'SELECT is not limited to raw variables; it can compute new values on the fly and name them in the output.',
+              points: [
+                { term: 'Expression in SELECT', detail: 'You can wrap a calculation in parentheses and give it a name to add a computed column.' },
+                { term: 'The AS keyword', detail: 'AS binds the result of an expression to a fresh variable that appears in the result table.' },
+                { term: 'Inline calculation', detail: 'Arithmetic and functions run per row, so you can divide, concatenate, or measure values directly.' },
+                { term: 'No extra clause', detail: 'Projecting expressions avoids a separate BIND step for values you only need in the output.' },
+                { term: 'SELECT star', detail: 'The asterisk projects every variable mentioned in the pattern instead of an explicit list.' },
+              ],
+            },
+            example: "SELECT * # project every variable used in the pattern",
+          },
+        ],
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 'sparql-where',
+    title: 'WHERE Patterns',
+    level: 1,
+    slug: 'where',
+    concepts: [],
+    children: [
+      {
+        id: 'sparql-where-ops',
+        title: 'Basic Graph Patterns',
+        level: 2,
+        slug: 'where-ops',
+        concepts: [
+          {
+            id: 'sparql-where-basic',
+            code: "WHERE {\n  ?film dbo:director ?director .\n  ?director foaf:name \"Christopher Nolan\" .\n  ?film rdfs:label ?title .\n}",
+            note: 'The WHERE clause holds a basic graph pattern: a set of triple patterns that must all match, sharing variables to express joins. Shared variables act like implicit inner joins.',
+            explanation: {
+              heading: 'Basic Graph Patterns',
+              intro: 'The heart of a SPARQL query is the graph pattern in the WHERE clause, a template of triples the engine tries to satisfy.',
+              points: [
+                { term: 'Triple pattern', detail: 'A triple with one or more positions replaced by variables, describing the shape of data to find.' },
+                { term: 'Conjunction', detail: 'All patterns in a basic graph pattern must match together for a row to qualify.' },
+                { term: 'Shared variables', detail: 'A variable used in two patterns must bind to the same value, which expresses a join.' },
+                { term: 'Implicit inner join', detail: 'Because every pattern must match, unmatched combinations are dropped just like a SQL inner join.' },
+                { term: 'Order independence', detail: 'Patterns describe constraints declaratively, so the engine is free to evaluate them in any efficient order.' },
+              ],
+            },
+            example: "# Reused ?director joins the two triples",
+          },
+          {
+            id: 'sparql-predicate-object-lists',
+            code: "WHERE {\n  ?film dbo:director ?d ;   # ; reuses ?film as subject\n        dbo:starring ?actor ,   # , reuses ?film dbo:starring\n                     ?actor2 .\n}",
+            note: 'A semicolon reuses the same subject across predicates, and a comma reuses the same subject and predicate across objects. These shorthands make dense graph patterns far more readable.',
+            explanation: {
+              heading: 'Predicate and Object Lists',
+              intro: 'Turtle-style shorthand lets you describe several facts about one subject without repeating it, keeping patterns compact.',
+              points: [
+                { term: 'Semicolon', detail: 'Reuses the current subject while introducing a new predicate and object pair.' },
+                { term: 'Comma', detail: 'Reuses both the current subject and predicate to list several objects at once.' },
+                { term: 'Predicate list', detail: 'Chaining predicates with semicolons groups all the properties of a single resource together.' },
+                { term: 'Object list', detail: 'Chaining objects with commas records multiple values for the same relationship.' },
+                { term: 'Readability', detail: 'These abbreviations shrink dense graph patterns and make the subject of each block obvious.' },
+              ],
+            },
+            example: "# ; shares the subject, , shares subject and predicate",
+          },
+        ],
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 'sparql-filter',
+    title: 'FILTER',
+    level: 1,
+    slug: 'filter',
+    concepts: [],
+    children: [
+      {
+        id: 'sparql-filter-ops',
+        title: 'Constraining Results',
+        level: 2,
+        slug: 'filter-ops',
+        concepts: [
+          {
+            id: 'sparql-filter-basic',
+            code: "SELECT ?name ?pop\nWHERE {\n  ?city a dbo:City ; foaf:name ?name ; dbo:populationTotal ?pop .\n  FILTER (?pop > 1000000 && lang(?name) = 'en')\n}",
+            note: 'FILTER removes bindings that fail a boolean expression. It supports comparisons, arithmetic, regex, and functions like lang(), str(), and bound(). Filters do not add new bindings.',
+            explanation: {
+              heading: 'Constraining With FILTER',
+              intro: 'FILTER narrows a result set by testing each candidate binding against a boolean condition and discarding those that fail.',
+              points: [
+                { term: 'Boolean test', detail: 'A binding is kept only when the filter expression evaluates to true for that row.' },
+                { term: 'Comparisons', detail: 'Operators such as greater-than, equals, and logical and or or combine simple conditions.' },
+                { term: 'Built-in functions', detail: 'Helpers like lang, str, bound, and regex let you inspect and match values precisely.' },
+                { term: 'No new bindings', detail: 'A filter can only remove rows; it never introduces new variables or values.' },
+                { term: 'Regex matching', detail: 'The regex function tests strings against a pattern, with a flag such as i for case-insensitive matching.' },
+              ],
+            },
+            example: "FILTER regex(?name, '^San', 'i')",
+          },
+          {
+            id: 'sparql-filter-in-not-exists',
+            code: "WHERE {\n  ?film dbo:genre ?g .\n  FILTER (?g IN (dbr:Drama, dbr:Thriller))\n  FILTER NOT EXISTS { ?film dbo:director dbr:Uwe_Boll }\n}",
+            note: 'FILTER IN tests membership against a value list, and FILTER NOT EXISTS excludes bindings for which a sub-pattern matches (an anti-join). EXISTS tests presence without binding new variables.',
+            explanation: {
+              heading: 'Membership and Negation',
+              intro: 'Two powerful filter forms let you test whether a value is in a set and whether related data exists, without adding columns.',
+              points: [
+                { term: 'FILTER IN', detail: 'Keeps rows whose value appears in a supplied list, a compact alternative to several or conditions.' },
+                { term: 'EXISTS', detail: 'Returns true when a sub-pattern matches at least once, testing presence without binding its variables.' },
+                { term: 'NOT EXISTS', detail: 'Excludes any binding for which the sub-pattern matches, forming an anti-join.' },
+                { term: 'Idiomatic negation', detail: 'NOT EXISTS is the standard way to express does not have in SPARQL.' },
+                { term: 'Non-binding', detail: 'These tests evaluate a pattern purely for its truth value and leave the result variables unchanged.' },
+              ],
+            },
+            example: "# NOT EXISTS is the idiomatic way to express negation",
+          },
+        ],
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 'sparql-optional',
+    title: 'OPTIONAL',
+    level: 1,
+    slug: 'optional',
+    concepts: [],
+    children: [
+      {
+        id: 'sparql-optional-ops',
+        title: 'Optional Patterns',
+        level: 2,
+        slug: 'optional-ops',
+        concepts: [
+          {
+            id: 'sparql-optional-basic',
+            code: "SELECT ?name ?email\nWHERE {\n  ?person foaf:name ?name .\n  OPTIONAL { ?person foaf:mbox ?email }\n}",
+            note: 'OPTIONAL includes results even when the enclosed pattern does not match, leaving those variables unbound (like a SQL LEFT JOIN). Use bound(?email) to test presence.',
+            explanation: {
+              heading: 'Optional Patterns',
+              intro: 'OPTIONAL lets a query pull in extra data when it is present without discarding rows that lack it, mirroring a left outer join.',
+              points: [
+                { term: 'Optional block', detail: 'The pattern inside OPTIONAL is tried, but its failure does not remove the surrounding result row.' },
+                { term: 'Unbound variables', detail: 'When the optional pattern does not match, its variables are left with no value.' },
+                { term: 'Left join analogy', detail: 'Required patterns stay on the left and the optional part fills in extra columns where it can.' },
+                { term: 'The bound function', detail: 'Testing bound on a variable reveals whether the optional part matched for that row.' },
+                { term: 'Finding gaps', detail: 'Filtering on not bound isolates rows where the optional data was missing.' },
+              ],
+            },
+            example: "FILTER (!bound(?email)) # people without an email",
+          },
+          {
+            id: 'sparql-optional-coalesce',
+            code: "SELECT ?name (COALESCE(?email, \"n/a\") AS ?contact)\nWHERE {\n  ?person foaf:name ?name .\n  OPTIONAL { ?person foaf:mbox ?email }\n}",
+            note: 'COALESCE returns its first bound argument, providing a default for variables that an OPTIONAL may leave unbound. This cleanly fills missing optional data instead of returning empty cells.',
+            explanation: {
+              heading: 'Defaults With COALESCE',
+              intro: 'When an optional pattern leaves gaps, COALESCE supplies a fallback so the result table has meaningful values rather than blanks.',
+              points: [
+                { term: 'First bound wins', detail: 'COALESCE walks its arguments left to right and returns the first one that has a value.' },
+                { term: 'Default values', detail: 'A trailing literal serves as the fallback used whenever every earlier argument is unbound.' },
+                { term: 'Pairs with OPTIONAL', detail: 'It is the natural partner to OPTIONAL, turning missing matches into a placeholder like not available.' },
+                { term: 'Cleaner output', detail: 'Filling gaps avoids empty cells and makes downstream processing simpler.' },
+                { term: 'Chaining', detail: 'You can list several candidate variables so the first available source of a value is used.' },
+              ],
+            },
+            example: "# COALESCE supplies a fallback for unbound optionals",
+          },
+        ],
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 'sparql-union',
+    title: 'UNION',
+    level: 1,
+    slug: 'union',
+    concepts: [],
+    children: [
+      {
+        id: 'sparql-union-ops',
+        title: 'Alternative Patterns',
+        level: 2,
+        slug: 'union-ops',
+        concepts: [
+          {
+            id: 'sparql-union-basic',
+            code: "SELECT ?person ?contact\nWHERE {\n  ?person a foaf:Person .\n  { ?person foaf:mbox ?contact }\n  UNION\n  { ?person foaf:phone ?contact }\n}",
+            note: 'UNION combines results from two patterns, returning rows that match either side (a logical OR). Each branch can bind different variables, unlike a single conjunctive pattern.',
+            explanation: {
+              heading: 'Alternative Patterns',
+              intro: 'UNION expresses a logical or between two graph patterns, gathering rows that satisfy either alternative into one result set.',
+              points: [
+                { term: 'Two branches', detail: 'Each pair of braces around UNION holds a separate pattern evaluated independently.' },
+                { term: 'Logical or', detail: 'A row qualifies if it matches the left branch, the right branch, or both.' },
+                { term: 'Differing variables', detail: 'The branches need not use the same variables, unlike a plain conjunctive pattern.' },
+                { term: 'Combined rows', detail: 'Matches from both sides are merged into a single table of results.' },
+                { term: 'Use case', detail: 'It is ideal when a value can come from more than one property or shape of data.' },
+              ],
+            },
+            example: "# Matches people with an email OR a phone",
+          },
+          {
+            id: 'sparql-union-distinct-vars',
+            code: "SELECT ?item ?title ?name\nWHERE {\n  { ?item a dbo:Film ; rdfs:label ?title }\n  UNION\n  { ?item a foaf:Person ; foaf:name ?name }\n}",
+            note: 'When UNION branches bind different variables, rows from each side leave the other side variables unbound. This lets a single query gather heterogeneous entities into one result set.',
+            explanation: {
+              heading: 'Heterogeneous UNION Results',
+              intro: 'UNION branches that bind distinct variables let one query collect different kinds of entity side by side in a single table.',
+              points: [
+                { term: 'Branch-specific columns', detail: 'A variable set only in one branch stays unbound for rows produced by the other branch.' },
+                { term: 'Mixed entities', detail: 'You can return films with their titles and people with their names from the same query.' },
+                { term: 'Sparse rows', detail: 'Each row fills only the columns relevant to the branch that produced it, leaving others empty.' },
+                { term: 'Single result set', detail: 'Despite differing shapes, all matches appear together in one uniform table.' },
+                { term: 'Post-processing', detail: 'Which columns are bound signals which kind of entity a given row represents.' },
+              ],
+            },
+            example: "# Films bind ?title; people bind ?name; the other is unbound",
+          },
+        ],
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 'sparql-order-limit',
+    title: 'ORDER BY and LIMIT',
+    level: 1,
+    slug: 'order-limit',
+    concepts: [],
+    children: [
+      {
+        id: 'sparql-order-ops',
+        title: 'Ordering and Paging',
+        level: 2,
+        slug: 'order-ops',
+        concepts: [
+          {
+            id: 'sparql-order-basic',
+            code: "SELECT ?name ?pop\nWHERE { ?c a dbo:City ; foaf:name ?name ; dbo:populationTotal ?pop . }\nORDER BY DESC(?pop)\nLIMIT 10\nOFFSET 20",
+            note: 'ORDER BY sorts result rows, ASC by default or DESC(). LIMIT caps the number of rows and OFFSET skips rows, together enabling pagination over large result sets.',
+            explanation: {
+              heading: 'Ordering and Paging',
+              intro: 'Solution modifiers reshape the final result table by sorting it and slicing out a window of rows.',
+              points: [
+                { term: 'ORDER BY', detail: 'Sorts result rows by one or more keys, ascending unless you wrap a key in DESC.' },
+                { term: 'ASC and DESC', detail: 'Ascending is the default direction, and DESC reverses it for that key.' },
+                { term: 'LIMIT', detail: 'Caps the result at a maximum number of rows, useful for previews and top-N queries.' },
+                { term: 'OFFSET', detail: 'Skips a number of leading rows so you can fetch later pages of results.' },
+                { term: 'Multi-key sort', detail: 'Listing several keys sorts by the first, breaking ties with the next, and so on.' },
+              ],
+            },
+            example: "ORDER BY ?country DESC(?pop) # multi-key sort",
+          },
+          {
+            id: 'sparql-order-stability',
+            code: "SELECT ?c ?name\nWHERE { ?c a dbo:City ; foaf:name ?name . }\nORDER BY ?name ?c   # tie-break on ?c for stable paging\nLIMIT 50 OFFSET 100",
+            note: 'For reliable pagination the ORDER BY must be deterministic; add a unique tie-breaker like the resource IRI so equal sort keys always order the same way. Otherwise pages can overlap or skip rows.',
+            explanation: {
+              heading: 'Stable Pagination',
+              intro: 'Paging with LIMIT and OFFSET only works correctly when the sort order is fully deterministic across requests.',
+              points: [
+                { term: 'Deterministic order', detail: 'Every page relies on rows appearing in exactly the same sequence each time the query runs.' },
+                { term: 'Tie-breaker key', detail: 'Adding a unique secondary key such as the resource IRI resolves ties in a fixed way.' },
+                { term: 'Overlap risk', detail: 'Without a stable order, consecutive pages can repeat rows already seen.' },
+                { term: 'Skip risk', detail: 'Ambiguous ordering can also cause OFFSET to jump over rows that were never returned.' },
+                { term: 'Unique secondary sort', detail: 'A guaranteed-unique final key makes the total ordering reproducible and paging safe.' },
+              ],
+            },
+            example: "# A unique secondary sort key keeps OFFSET paging consistent",
+          },
+        ],
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 'sparql-aggregation',
+    title: 'Aggregation',
+    level: 1,
+    slug: 'aggregation',
+    concepts: [],
+    children: [
+      {
+        id: 'sparql-agg-ops',
+        title: 'GROUP BY and COUNT',
+        level: 2,
+        slug: 'agg-ops',
+        concepts: [
+          {
+            id: 'sparql-agg-basic',
+            code: "SELECT ?country (COUNT(?city) AS ?cities)\nWHERE {\n  ?city a dbo:City ; dbo:country ?country .\n}\nGROUP BY ?country\nHAVING (COUNT(?city) > 5)\nORDER BY DESC(?cities)",
+            note: 'Aggregates include COUNT, SUM, AVG, MIN, MAX, and GROUP_CONCAT. GROUP BY groups rows and HAVING filters those groups, mirroring SQL aggregation semantics.',
+            explanation: {
+              heading: 'Grouping and Aggregates',
+              intro: 'Aggregation collapses many rows into summary values per group, following the same model as SQL grouping.',
+              points: [
+                { term: 'GROUP BY', detail: 'Partitions matching rows into groups that share the same value of the grouping key.' },
+                { term: 'Aggregate functions', detail: 'COUNT, SUM, AVG, MIN, and MAX compute a single summary value for each group.' },
+                { term: 'GROUP_CONCAT', detail: 'Joins the values within a group into one string, optionally with a chosen separator.' },
+                { term: 'HAVING', detail: 'Filters whole groups by a condition on their aggregate, unlike FILTER which acts on rows.' },
+                { term: 'SQL parallel', detail: 'The grouping, aggregating, and having semantics closely mirror familiar SQL behaviour.' },
+              ],
+            },
+            example: "(GROUP_CONCAT(?name; SEPARATOR=', ') AS ?names)",
+          },
+          {
+            id: 'sparql-agg-sample-distinct',
+            code: "SELECT ?country\n  (COUNT(DISTINCT ?lang) AS ?langs)\n  (SAMPLE(?capital) AS ?anyCapital)\nWHERE { ?c dbo:country ?country ; dbo:language ?lang ; dbo:capital ?capital . }\nGROUP BY ?country",
+            note: 'COUNT(DISTINCT ?x) counts unique values within each group, and SAMPLE returns an arbitrary value for a non-grouped variable so it can appear in SELECT. Every projected variable must be grouped or aggregated.',
+            explanation: {
+              heading: 'DISTINCT Counts and SAMPLE',
+              intro: 'Two aggregation refinements handle duplicate values and pull a representative value for columns that are neither grouped nor aggregated.',
+              points: [
+                { term: 'COUNT DISTINCT', detail: 'Counts only the unique values of a variable within each group, ignoring repeats.' },
+                { term: 'SAMPLE', detail: 'Returns one arbitrary value for a variable so it can be projected without grouping on it.' },
+                { term: 'Projection rule', detail: 'Every variable in SELECT must either appear in GROUP BY or be wrapped in an aggregate.' },
+                { term: 'Representative value', detail: 'SAMPLE is handy when any value from the group will do, such as a single label.' },
+                { term: 'Avoiding errors', detail: 'Aggregating or grouping every projected variable keeps the query well-formed.' },
+              ],
+            },
+            example: "# SAMPLE picks one representative value per group",
+          },
+        ],
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 'sparql-construct',
+    title: 'CONSTRUCT',
+    level: 1,
+    slug: 'construct',
+    concepts: [],
+    children: [
+      {
+        id: 'sparql-construct-ops',
+        title: 'Building Graphs',
+        level: 2,
+        slug: 'construct-ops',
+        concepts: [
+          {
+            id: 'sparql-construct-basic',
+            code: "CONSTRUCT {\n  ?person foaf:knows ?colleague .\n}\nWHERE {\n  ?person dbo:employer ?company .\n  ?colleague dbo:employer ?company .\n  FILTER (?person != ?colleague)\n}",
+            note: 'CONSTRUCT returns a new RDF graph built from a template filled by the WHERE bindings, rather than a table. It is used to transform, infer, or export triples.',
+            explanation: {
+              heading: 'Building Graphs',
+              intro: 'Unlike SELECT, the CONSTRUCT form produces RDF triples, letting you reshape or derive new data from what you match.',
+              points: [
+                { term: 'Graph output', detail: 'CONSTRUCT returns a set of triples forming a new graph rather than a table of bindings.' },
+                { term: 'Template', detail: 'The triples inside the CONSTRUCT braces act as a template filled in by each WHERE match.' },
+                { term: 'Transformation', detail: 'It can reshape existing data into a different structure or vocabulary.' },
+                { term: 'Inference', detail: 'New relationships can be derived, such as inferring colleagues from a shared employer.' },
+                { term: 'Export', detail: 'The resulting graph can be serialised and moved into another store or file.' },
+              ],
+            },
+            example: "# Derives colleague relationships from shared employers",
+          },
+          {
+            id: 'sparql-construct-remodel',
+            code: "CONSTRUCT {\n  ?p vcard:fn ?name ; vcard:email ?mbox .\n}\nWHERE {\n  ?p foaf:name ?name .\n  OPTIONAL { ?p foaf:mbox ?mbox }\n}",
+            note: 'CONSTRUCT is ideal for vocabulary translation, mapping data from one ontology (foaf) into another (vcard). Triples whose template terms are unbound are simply omitted from the output graph.',
+            explanation: {
+              heading: 'Vocabulary Translation',
+              intro: 'A common use of CONSTRUCT is mapping data expressed in one ontology onto the terms of another for interoperability.',
+              points: [
+                { term: 'Ontology mapping', detail: 'Source properties from one vocabulary are rewritten as equivalent properties in another.' },
+                { term: 'Template terms', detail: 'Each template triple is emitted once per matching binding of its variables.' },
+                { term: 'Unbound omission', detail: 'A template triple containing an unbound variable is simply left out of the output.' },
+                { term: 'Optional data', detail: 'Pairing the template with OPTIONAL patterns lets missing values drop cleanly.' },
+                { term: 'Interoperability', detail: 'Translated graphs let systems that expect different vocabularies consume the same underlying data.' },
+              ],
+            },
+            example: "# Unbound optional ?mbox drops that triple from the result",
+          },
+        ],
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 'sparql-ask-describe',
+    title: 'ASK and DESCRIBE',
+    level: 1,
+    slug: 'ask-describe',
+    concepts: [],
+    children: [
+      {
+        id: 'sparql-ask-ops',
+        title: 'Boolean and Resource Queries',
+        level: 2,
+        slug: 'ask-ops',
+        concepts: [
+          {
+            id: 'sparql-ask-basic',
+            code: "ASK {\n  ?person foaf:name \"Alice\" ; dbo:birthPlace dbr:London .\n}\n\nDESCRIBE <http://dbpedia.org/resource/London>",
+            note: 'ASK returns true or false depending on whether a pattern matches. DESCRIBE returns all triples the endpoint knows about a resource, useful for exploring unfamiliar data.',
+            explanation: {
+              heading: 'Boolean and Resource Queries',
+              intro: 'Beyond tables and graphs, SPARQL offers a yes-or-no query and a query that dumps everything known about a resource.',
+              points: [
+                { term: 'ASK form', detail: 'Returns a single boolean indicating whether the pattern matches anywhere in the data.' },
+                { term: 'Existence checks', detail: 'ASK is the most direct way to confirm whether some fact is present.' },
+                { term: 'DESCRIBE form', detail: 'Returns a graph of triples that the endpoint considers relevant to a named resource.' },
+                { term: 'Exploration', detail: 'DESCRIBE is helpful for discovering the shape of unfamiliar data before writing detailed queries.' },
+                { term: 'Endpoint-defined', detail: 'The precise triples a DESCRIBE returns are chosen by the server, not fixed by the query.' },
+              ],
+            },
+            example: "# ASK is ideal for existence checks",
+          },
+          {
+            id: 'sparql-describe-where',
+            code: "DESCRIBE ?scientist\nWHERE {\n  ?scientist a dbo:Scientist ; dbo:field dbr:Physics .\n}",
+            note: 'DESCRIBE can take a variable bound by a WHERE clause, returning descriptive triples for every matched resource. The exact triples returned are endpoint-defined, so results vary between servers.',
+            explanation: {
+              heading: 'DESCRIBE With WHERE',
+              intro: 'DESCRIBE can be driven by a pattern, profiling every resource that a WHERE clause selects rather than a single fixed IRI.',
+              points: [
+                { term: 'Variable target', detail: 'A variable bound in WHERE tells DESCRIBE which resources to summarise.' },
+                { term: 'Set of resources', detail: 'Every match of the pattern contributes its descriptive triples to the output graph.' },
+                { term: 'Endpoint-defined output', detail: 'Each server decides which surrounding triples count as a description, so results can differ.' },
+                { term: 'Portability caveat', detail: 'Because output varies, avoid relying on exact DESCRIBE contents across different servers.' },
+                { term: 'Discovery use', detail: 'It is a quick way to inspect many related resources at once while learning a dataset.' },
+              ],
+            },
+            example: "# DESCRIBE with WHERE profiles a whole set of resources",
+          },
+        ],
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 'sparql-property-paths',
+    title: 'Property Paths',
+    level: 1,
+    slug: 'property-paths',
+    concepts: [],
+    children: [
+      {
+        id: 'sparql-path-ops',
+        title: 'Path Expressions',
+        level: 2,
+        slug: 'path-ops',
+        concepts: [
+          {
+            id: 'sparql-path-basic',
+            code: "SELECT ?descendant\nWHERE {\n  dbr:Alice foaf:knows+ ?descendant .\n  ?person (dbo:parent/dbo:parent) ?grandparent .\n}",
+            note: 'Property paths traverse chains of predicates without intermediate variables. + means one-or-more, * zero-or-more, / sequences predicates, and | offers alternatives.',
+            explanation: {
+              heading: 'Path Expressions',
+              intro: 'Property paths let a single pattern walk across many hops of a graph without naming the intermediate nodes.',
+              points: [
+                { term: 'Sequence', detail: 'The slash operator chains predicates so you can step from one resource through another in one line.' },
+                { term: 'One or more', detail: 'The plus operator follows a predicate repeatedly, matching chains of length at least one.' },
+                { term: 'Zero or more', detail: 'The star operator matches any number of hops, including the resource itself.' },
+                { term: 'Alternatives', detail: 'The pipe operator lets a hop follow either of two predicates.' },
+                { term: 'No intermediates', detail: 'Paths avoid inventing throwaway variables just to connect two ends of a chain.' },
+              ],
+            },
+            example: "foaf:knows* # reflexive transitive closure",
+          },
+          {
+            id: 'sparql-path-inverse',
+            code: "SELECT ?follower\nWHERE {\n  dbr:Alice ^ex:follows ?follower .          # inverse: who follows Alice\n  ?x (rdfs:subClassOf*) dbo:Agent .           # any ancestor class\n  ?y ex:related|^ex:related ?z .              # either direction\n}",
+            note: 'The ^ operator reverses a predicate direction, and paths combine with * and | for flexible traversal. Inverse paths avoid rewriting triple patterns just to walk a relationship backwards.',
+            explanation: {
+              heading: 'Inverse and Combined Paths',
+              intro: 'The inverse operator flips the direction of travel, and it composes with the other path operators for expressive traversal.',
+              points: [
+                { term: 'Inverse operator', detail: 'The caret reverses a predicate so you match from object back to subject.' },
+                { term: 'Backward walk', detail: 'It answers questions like who points at this resource without swapping the triple around.' },
+                { term: 'Combining operators', detail: 'Inverse mixes with the star, plus, and pipe operators for rich navigation.' },
+                { term: 'Class ancestry', detail: 'A starred subclass path finds every ancestor class of a given type.' },
+                { term: 'Either direction', detail: 'Uniting a predicate with its inverse matches a relationship regardless of which way it was recorded.' },
+              ],
+            },
+            example: "# ^ex:follows finds subjects pointing at the object",
+          },
+        ],
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 'sparql-subqueries',
+    title: 'Subqueries',
+    level: 1,
+    slug: 'subqueries',
+    concepts: [],
+    children: [
+      {
+        id: 'sparql-subquery-ops',
+        title: 'Nested SELECT',
+        level: 2,
+        slug: 'subquery-ops',
+        concepts: [
+          {
+            id: 'sparql-subquery-basic',
+            code: "SELECT ?country ?maxPop\nWHERE {\n  {\n    SELECT ?country (MAX(?pop) AS ?maxPop)\n    WHERE { ?c dbo:country ?country ; dbo:populationTotal ?pop . }\n    GROUP BY ?country\n  }\n}",
+            note: 'A subquery runs first and its results feed the outer query, useful for per-group aggregates or limiting before joining. Only variables projected by the subquery are visible outside.',
+            explanation: {
+              heading: 'Nested SELECT',
+              intro: 'A subquery is a complete SELECT embedded in a pattern; it is evaluated first and its output flows into the surrounding query.',
+              points: [
+                { term: 'Inside-out evaluation', detail: 'The inner query runs first and produces a set of bindings the outer query then joins against.' },
+                { term: 'Projected scope', detail: 'Only variables the subquery selects are visible outside it, so others stay private.' },
+                { term: 'Per-group aggregates', detail: 'Subqueries are ideal for computing a summary per group before joining more detail.' },
+                { term: 'Early limiting', detail: 'Applying a limit inside lets you shrink the data before an expensive outer join.' },
+                { term: 'Composition', detail: 'Nesting queries builds up results in stages that a single flat pattern cannot express.' },
+              ],
+            },
+            example: "# Inner query computes the max population per country",
+          },
+          {
+            id: 'sparql-subquery-limit-per-group',
+            code: "SELECT ?country ?city\nWHERE {\n  ?country a dbo:Country .\n  {\n    SELECT ?city WHERE { ?city a dbo:City } ORDER BY ?city LIMIT 1\n  }\n}",
+            note: 'Subqueries can apply ORDER BY and LIMIT to produce a bounded inner result before the outer pattern joins it, a common way to fetch a top-N-per-group style slice that a single flat query cannot express.',
+            explanation: {
+              heading: 'Bounded Inner Results',
+              intro: 'Because a subquery is fully evaluated first, its ordering and limits take effect before the outer query ever sees the rows.',
+              points: [
+                { term: 'Inner ORDER BY', detail: 'Sorting inside the subquery decides which rows survive a following limit.' },
+                { term: 'Inner LIMIT', detail: 'A limit applied inside caps the inner result before the outer pattern joins it.' },
+                { term: 'Evaluation order', detail: 'The subquery completes independently, so its slice is fixed prior to the outer join.' },
+                { term: 'Top-N slices', detail: 'This structure enables selecting a bounded set of top results within a broader query.' },
+                { term: 'Expressive power', detail: 'It captures logic that a single flat query, which limits the whole result at once, cannot.' },
+              ],
+            },
+            example: "# The inner LIMIT applies before the outer join",
+          },
+        ],
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 'sparql-bind-values',
+    title: 'BIND and VALUES',
+    level: 1,
+    slug: 'bind-values',
+    concepts: [],
+    children: [
+      {
+        id: 'sparql-bind-ops',
+        title: 'Assigning and Injecting Values',
+        level: 2,
+        slug: 'bind-ops',
+        concepts: [
+          {
+            id: 'sparql-bind-basic',
+            code: "SELECT ?name ?label\nWHERE {\n  VALUES ?type { dbo:City dbo:Town }\n  ?place a ?type ; foaf:name ?name .\n  BIND (CONCAT(\"Place: \", ?name) AS ?label)\n}",
+            note: 'BIND computes an expression and assigns it to a new variable mid-query. VALUES injects an inline table of fixed values to constrain or drive the pattern.',
+            explanation: {
+              heading: 'Assigning and Injecting Values',
+              intro: 'BIND and VALUES both introduce values into a query, one by computing them and the other by supplying them inline.',
+              points: [
+                { term: 'BIND', detail: 'Evaluates an expression and assigns the result to a new variable partway through the pattern.' },
+                { term: 'VALUES', detail: 'Provides an inline table of fixed values that constrain or drive the surrounding pattern.' },
+                { term: 'Single column', detail: 'A one-variable VALUES block restricts a variable to a small allowed set.' },
+                { term: 'Multi column', detail: 'VALUES can define several variables at once, supplying combinations row by row.' },
+                { term: 'Driving the pattern', detail: 'Injected values act like seed data the rest of the query joins against.' },
+              ],
+            },
+            example: "VALUES (?a ?b) { (1 2) (3 4) } # multi-column inline data",
+          },
+          {
+            id: 'sparql-bind-functions',
+            code: "SELECT ?name ?year ?upper\nWHERE {\n  ?p foaf:name ?name ; dbo:birthDate ?d .\n  BIND (YEAR(?d) AS ?year)\n  BIND (UCASE(?name) AS ?upper)\n  FILTER (?year > 1980)\n}",
+            note: 'BIND is handy with built-in functions: string functions (UCASE, SUBSTR, CONCAT), numeric ones, and date functions like YEAR. A bound variable becomes available to later patterns, FILTERs, and SELECT.',
+            explanation: {
+              heading: 'BIND With Functions',
+              intro: 'BIND becomes powerful when combined with the many built-in functions, deriving new values that later parts of the query can use.',
+              points: [
+                { term: 'String functions', detail: 'Helpers like UCASE, SUBSTR, and CONCAT transform and combine text values.' },
+                { term: 'Numeric functions', detail: 'Arithmetic and math helpers compute derived numbers from existing values.' },
+                { term: 'Date functions', detail: 'Functions such as YEAR extract components from date and time literals.' },
+                { term: 'Downstream visibility', detail: 'A variable created by BIND is available to later patterns, filters, and the SELECT list.' },
+                { term: 'Reuse', detail: 'Computing a value once with BIND avoids repeating the same expression across the query.' },
+              ],
+            },
+            example: "# Bound ?year can then be used in a later FILTER",
+          },
+        ],
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 'sparql-federated',
+    title: 'Federated Queries',
+    level: 1,
+    slug: 'federated',
+    concepts: [],
+    children: [
+      {
+        id: 'sparql-service-ops',
+        title: 'SERVICE',
+        level: 2,
+        slug: 'service-ops',
+        concepts: [
+          {
+            id: 'sparql-service-basic',
+            code: "SELECT ?name ?abstract\nWHERE {\n  ?person foaf:name ?name .\n  SERVICE <https://dbpedia.org/sparql> {\n    ?person dbo:abstract ?abstract .\n    FILTER (lang(?abstract) = 'en')\n  }\n}",
+            note: 'SERVICE runs a sub-pattern against a remote SPARQL endpoint and joins the results with the local query, letting you combine data across multiple knowledge bases.',
+            explanation: {
+              heading: 'Federated Queries',
+              intro: 'The SERVICE keyword lets one query reach out to a remote endpoint and blend its data with local results.',
+              points: [
+                { term: 'Remote sub-pattern', detail: 'The pattern inside a SERVICE block is evaluated on the endpoint at the given address.' },
+                { term: 'Join across sources', detail: 'Results from the remote endpoint are joined with the surrounding local pattern.' },
+                { term: 'Binding flow', detail: 'Variables bound before the block can be sent along to constrain the remote query.' },
+                { term: 'Multiple knowledge bases', detail: 'Federation lets a single query draw on several independent datasets at once.' },
+                { term: 'Network dependency', detail: 'Because it calls out over the network, a SERVICE block depends on the remote server being reachable.' },
+              ],
+            },
+            example: "# Bindings flow into the remote SERVICE block",
+          },
+          {
+            id: 'sparql-service-silent',
+            code: "SERVICE SILENT <https://sometimes-down.example/sparql> {\n  ?person dbo:abstract ?abstract .\n}",
+            note: 'SERVICE SILENT lets the query continue even if the remote endpoint errors or is unreachable, leaving that block\'s variables unbound instead of failing the whole query. It adds resilience to federation.',
+            explanation: {
+              heading: 'Resilient Federation',
+              intro: 'The SILENT modifier makes a federated call tolerant of failure, so one flaky endpoint does not sink the entire query.',
+              points: [
+                { term: 'SILENT modifier', detail: 'Tells the engine to swallow errors from the remote endpoint rather than aborting.' },
+                { term: 'Graceful degradation', detail: 'If the endpoint fails, the block simply contributes no bindings and the query continues.' },
+                { term: 'Unbound on failure', detail: 'Variables that would have come from the block are left unbound when the call fails.' },
+                { term: 'Flaky endpoints', detail: 'It is well suited to remote services that are sometimes slow or unavailable.' },
+                { term: 'Trade-off', detail: 'Resilience comes at the cost of silently missing data, so results may be incomplete.' },
+              ],
+            },
+            example: "# SILENT tolerates a flaky or slow remote endpoint",
+          },
+        ],
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 'sparql-named-graphs',
+    title: 'Named Graphs',
+    level: 1,
+    slug: 'named-graphs',
+    concepts: [],
+    children: [
+      {
+        id: 'sparql-graph-ops',
+        title: 'GRAPH and FROM',
+        level: 2,
+        slug: 'graph-ops',
+        concepts: [
+          {
+            id: 'sparql-graph-basic',
+            code: "SELECT ?s ?p ?o\nFROM NAMED <http://example.org/graph1>\nWHERE {\n  GRAPH ?g {\n    ?s ?p ?o .\n  }\n}",
+            note: 'A dataset can hold multiple named graphs. GRAPH ?g scopes patterns to a specific graph and binds its name, while FROM and FROM NAMED select which graphs the query sees.',
+            explanation: {
+              heading: 'GRAPH and FROM',
+              intro: 'A SPARQL dataset can contain many named graphs, and these keywords control which graph a pattern matches within.',
+              points: [
+                { term: 'Named graphs', detail: 'A dataset holds a default graph plus any number of graphs each identified by an IRI.' },
+                { term: 'GRAPH keyword', detail: 'Scopes the enclosed patterns to one graph, binding a variable to that graph name when used.' },
+                { term: 'FROM', detail: 'Chooses which graphs are merged to form the default graph the query sees.' },
+                { term: 'FROM NAMED', detail: 'Declares which named graphs are available for the GRAPH keyword to select.' },
+                { term: 'Graph binding', detail: 'A variable in the GRAPH position captures which graph each matched triple came from.' },
+              ],
+            },
+            example: "# ?g captures which named graph a triple came from",
+          },
+          {
+            id: 'sparql-graph-provenance',
+            code: "SELECT ?g ?claim\nWHERE {\n  GRAPH ?g { ?person ex:salary ?claim }\n  FILTER (?g = <http://source/hr>)\n}",
+            note: 'Named graphs are the standard mechanism for provenance: storing each source or version in its own graph. Binding ?g lets a query report or filter by where a fact came from, key for trust and auditing.',
+            explanation: {
+              heading: 'Provenance With Named Graphs',
+              intro: 'Named graphs are the idiomatic way to track where data came from, keeping each source or version in its own graph.',
+              points: [
+                { term: 'Source per graph', detail: 'Storing each dataset or version in a separate named graph records its origin.' },
+                { term: 'Binding the graph name', detail: 'A variable in the GRAPH position reveals which source contributed each fact.' },
+                { term: 'Filtering by source', detail: 'You can restrict a query to facts from a particular trusted graph.' },
+                { term: 'Trust and auditing', detail: 'Knowing the origin of a triple supports verification and accountability.' },
+                { term: 'Versioning', detail: 'Separate graphs can also hold different revisions of the same underlying data.' },
+              ],
+            },
+            example: "# Query ?g to attribute each triple to its source graph",
+          },
+        ],
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 'sparql-update',
+    title: 'SPARQL Update',
+    level: 1,
+    slug: 'update',
+    concepts: [],
+    children: [
+      {
+        id: 'sparql-update-ops',
+        title: 'INSERT and DELETE',
+        level: 2,
+        slug: 'update-ops',
+        concepts: [
+          {
+            id: 'sparql-update-data',
+            code: "INSERT DATA {\n  <http://example.org/carol> foaf:name \"Carol\" .\n}\n\nDELETE DATA {\n  <http://example.org/carol> foaf:age 29 .\n}",
+            note: 'INSERT DATA and DELETE DATA add or remove concrete, fully-specified triples with no variables. They are the simplest write operations in the SPARQL 1.1 Update language for editing a graph store.',
+            explanation: {
+              heading: 'Direct Data Changes',
+              intro: 'The simplest update operations add or remove specific triples you spell out in full, with no pattern matching involved.',
+              points: [
+                { term: 'INSERT DATA', detail: 'Adds one or more fully-specified triples directly into the graph store.' },
+                { term: 'DELETE DATA', detail: 'Removes exact triples that you list explicitly from the store.' },
+                { term: 'Ground triples', detail: 'These forms accept only concrete triples with no variables in any position.' },
+                { term: 'Update language', detail: 'They belong to the SPARQL 1.1 Update language for modifying rather than reading data.' },
+                { term: 'Simplicity', detail: 'With no WHERE clause, they are the most direct way to edit known facts.' },
+              ],
+            },
+            example: "# DATA forms take ground triples only, no patterns",
+          },
+          {
+            id: 'sparql-update-where',
+            code: "DELETE { ?p foaf:mbox ?old }\nINSERT { ?p foaf:mbox <mailto:new@x.com> }\nWHERE  { ?p foaf:name \"Alice\" ; foaf:mbox ?old }",
+            note: 'The DELETE/INSERT ... WHERE form performs a pattern-based update: the WHERE binds variables, DELETE removes matched triples, and INSERT adds new ones in a single atomic modify, ideal for edits.',
+            explanation: {
+              heading: 'Pattern-Based Updates',
+              intro: 'The combined delete-and-insert form drives changes from a pattern, letting you rewrite matched data in a single atomic step.',
+              points: [
+                { term: 'WHERE binding', detail: 'The WHERE clause matches existing data and binds the variables used by both templates.' },
+                { term: 'DELETE template', detail: 'Removes the triples that the matched bindings identify from the store.' },
+                { term: 'INSERT template', detail: 'Adds new triples built from the same bindings, often the replacement values.' },
+                { term: 'Atomic modify', detail: 'The delete and insert happen together as one operation so the change is consistent.' },
+                { term: 'Editing values', detail: 'This form is the idiomatic way to replace or correct an existing value in place.' },
+              ],
+            },
+            example: "# This replaces Alice's email in one operation",
+          },
+        ],
+        children: [],
+      },
+    ],
+  },
+];
+
+export default topics;

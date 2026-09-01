@@ -1,0 +1,3 @@
+ npm run fetch:videos
+
+ npm run fetch:videos:force
